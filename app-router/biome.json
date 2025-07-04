@@ -18,7 +18,7 @@
 			"recommended": true,
 			"nursery": {
 				"useSortedClasses": {
-					"fix": "unsafe",
+					"fix": "safe",
 					"level": "warn",
 					"options": {
 						"functions": ["clsx", "cva", "tw", "tw.*"]
