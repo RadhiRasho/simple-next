@@ -1,5 +1,9 @@
 import { Suspense } from "react";
-import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
+import {
+	CardsSkeleton,
+	LatestInvoicesSkeleton,
+	RevenueChartSkeleton,
+} from "@/app/ui/skeletons";
 import CardWrapper from "../../ui/dashboard/cards";
 import LatestInvoices from "../../ui/dashboard/latest-invoices";
 import RevenueChart from "../../ui/dashboard/revenue-chart";

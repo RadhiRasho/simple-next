@@ -8,9 +8,7 @@ interface RootProps {
 export default function RootLayout({ children }: RootProps) {
 	return (
 		<html lang="en">
-			<body className={`${inter.className} antialiased`}>
-				{children}
-			</body>
+			<body className={`${inter.className} antialiased`}>{children}</body>
 		</html>
 	);
 }
